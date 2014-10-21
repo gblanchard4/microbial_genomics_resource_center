@@ -1,7 +1,12 @@
+Microbial Genonics Resource Center
+===========================================
+This is a website for the LSUHSC Microbial Genonics Resource Center (MGRC). It was built upon 'Miniport' by [html5up](http://html5up.net)
+
+
+## Template Info
 Miniport by HTML5 UP
 html5up.net | @n33co
 Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-
 
 A super simple responsive portfolio template. It's only a single page because hey, sometimes
 you don't need a half dozen pages to make your point.
@@ -16,18 +21,14 @@ Feedback, bug reports, and comments are not only welcome, but strongly encourage
 AJ
 n33.co @n33co dribbble.com/n33
 
-
-Credits:
-
-	Demo Images:
-		Unsplash (unsplash.com)
-	
-	Icons:
-		Font Awesome (fortawesome.github.com/Font-Awesome)
-
-	Other:
-		jQuery (jquery.com)
-		html5shiv.js (@afarkas @jdalton @jon_neal @rem)
-		CSS3 Pie (css3pie.com)
-		jquery.scrolly (n33.co)
-		skel (n33.co)
+### Credits:
+* Demo Images:  
+	* Unsplash (unsplash.com)   
+* Icons:  
+	* Font Awesome (fortawesome.github.com/Font-Awesome)  
+* Other:  
+	* jQuery (jquery.com)  
+	* html5shiv.js (@afarkas @jdalton @jon_neal @rem)  
+	* CSS3 Pie (css3pie.com)  
+	* jquery.scrolly (n33.co)  
+	* skel (n33.co)  
