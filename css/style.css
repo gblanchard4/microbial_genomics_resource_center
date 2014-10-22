@@ -718,12 +718,12 @@
 
 		#top .image
 		{
-			border-radius: 50%;
+			border-radius: 100;
 		}
 
 			#top .image img
 			{
-				border-radius: 50%;
+				border-radius: 100;
 			}
 
 		#top p
@@ -732,7 +732,7 @@
 	
 			#top p a
 			{
-				color: inherit;
+				color: #888;
 			}
 
 /*********************************************************************************/
