@@ -1,3 +1,6 @@
 # Trash
 trash/
 .DS_Store
+.nfs*
+*.nfs
+

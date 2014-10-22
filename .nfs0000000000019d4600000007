@@ -109,34 +109,35 @@
 					</header>
 					<div class="container">
 						<div class="row">
-							<div class="3u" style="height: 100%" >
-								<article class="box style1">
+							<div class="3u">
+								<article class="box style2">
 									<span class="image featured"><img src="images/biopsych.jpeg" alt="" /></span>
 									<h3><a href="http://www.ncbi.nlm.nih.gov/pubmed/25173628">Obese-type Gut Microbiota Induce Neurobehavioral Changes in the Absence of Obesity.</a></h3>
 									<p>Bruce-Keller AJ<sup>1</sup>, Salbaum JM<sup>2</sup>, Luo M<sup>3</sup>, Blanchard E 4th<sup>3</sup>, Taylor CM<sup>3</sup>, Welsh DA<sup>4</sup>, Berthoud HR<sup>2</sup>.</p>
 								</article>
 							</div>
 							<div class="3u">
-								<article class="box style1">
+								<article class="box style2">
 									<span class="image featured"><img src="images/nutrition.jpg" alt="" /></span>
 									<h3><a href="http://www.ncbi.nlm.nih.gov/pubmed/24985102">Artemisia supplementation differentially affects the mucosal and luminal ileal microbiota of diet-induced obese mice.</a></h3>
 									<p>Wicks S<sup>1</sup>, Taylor CM<sup>2</sup>, Luo M<sup>2</sup>, Blanchard E 4th<sup>2</sup>, Ribnicky DM<sup>3</sup>, Cefalu WT<sup>4</sup>, Mynatt RL<sup>1</sup>, Welsh DA<sup>5</sup>.</p>
 								</article>
 							</div>
 							<div class="3u">
-								<article class="box style1">
+								<article class="box style2">
 									<span class="image featured"><img src="images/JPediatrGastroCover.png" alt="" /></span>
 									<h3><a href="http://www.ncbi.nlm.nih.gov/pubmed/23254444">LHistamine-2 receptor blockers alter the fecal microbiota in premature infants.</a></h3>
 									<p>Gupta RW<sup>1</sup>, Tran L, Norori J, Ferris MJ, Eren AM, Taylor CM, Dowd SE, Penn D.</p>
 								</article>
 							</div>
 							<div class="3u">
-								<article class="box style1">
+								<article class="box style2">
 									<span class="image featured"><img src="images/ploscover_render2.png" alt="" /></span>
 									<h3><a href="http://www.ncbi.nlm.nih.gov/pubmed/22046340">Exploring the diversity of Gardnerella vaginalis in the genitourinary tract microbiota of monogamous couples through subtle nucleotide variation.</a></h3>
 									<p>Eren AM<sup>1</sup>, Zozaya M, Taylor CM, Dowd SE, Martin DH, Ferris MJ.</p>
 								</article>
 							</div>
+
 						</div>
 					</div>
 					<footer>
