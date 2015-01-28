@@ -24,13 +24,15 @@
 		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
 		<link rel="icon" type="image/png" href="images/favicon.ico">
 	</head>
+
 	<body>
 
 		<!-- Nav -->
 			<nav id="nav">
 				<ul class="container">
 					<li><a href="#top">Top</a></li>
-					<li><a href="#who">Who</a></li>
+					<li><a href="#who">People</a></li>
+					<li><a href="#news">News</a></li>
 					<li><a href="#portfolio">Publications</a></li>
 					<li><a href="#contact">Contact</a></li>
 				</ul>
@@ -62,7 +64,7 @@
 			<div class="wrapper style2">
 				<article id="who">
 					<header>
-						<h2>Who we are</h2>
+						<h2>People</h2>
 						<!-- <p>A group of upstanding, smart, good looking people!</p> -->
 					</header>
 					<div class="container">
@@ -70,28 +72,28 @@
 							<div class="3u">
 								<section class="box style2">
 									<span class="image fit"><a href="https://www.medschool.lsuhsc.edu/internal_medicine/faculty_detail.aspx?name=welsh_david"><img src="images/welsh.jpg" alt="" /></a></span>
-									<a href="https://www.medschool.lsuhsc.edu/internal_medicine/faculty_detail.aspx?name=welsh_david"><h3>David Welsh, MD</h3></a>
+									<a href="https://www.medschool.lsuhsc.edu/internal_medicine/faculty_detail.aspx?name=welsh_david" id="people" ><h3>David Welsh, MD</h3></a>
 									<p>Project Design</p>
 								</section>
 							</div>
 							<div class="3u">
 								<section class="box style2">
 									<span class="image fit"><a href="https://www.medschool.lsuhsc.edu/microbiology/faculty_detail.aspx?name=taylor_christopher"><img src="images/ChrisPhotoedit.jpeg" alt="" /></a></span>
-									<a href="https://www.medschool.lsuhsc.edu/microbiology/faculty_detail.aspx?name=taylor_christopher"><h3>Chris Taylor, PhD</h3></a>
+									<a href="https://www.medschool.lsuhsc.edu/microbiology/faculty_detail.aspx?name=taylor_christopher" id="people" ><h3>Chris Taylor, PhD</h3></a>
 									<p>Computational Biology</p>
 								</section>
 							</div>
 							<div class="3u">
 								<section class="box style2">
 									<span class="image fit"><a href="http://www.medschool.lsuhsc.edu/microbiology/faculty_detail.aspx?name=Luo_Meng"><img src="images/meng.jpg" alt="" /></a></span>
-									<a href="http://www.medschool.lsuhsc.edu/microbiology/faculty_detail.aspx?name=Luo_Meng"><h3>Meng Luo, PhD</h3></a>
+									<a href="http://www.medschool.lsuhsc.edu/microbiology/faculty_detail.aspx?name=Luo_Meng" id="people" ><h3>Meng Luo, PhD</h3></a>
 									<p>Molecular Biology</p>
 								</section>
 							</div>
 							<div class="3u">
 								<section class="box style2">
 									<span class="image fit"><a href="http://www.geneblanchard.com"><img src="images/gene1.jpg" alt="" /></a></span>
-									<a href="http://www.geneblanchard.com"><h3>Gene Blanchard</h3></a>
+									<a href="http://www.geneblanchard.com" id="people" ><h3>Gene Blanchard</h3></a>
 									<p>Bioinformatics</p>
 								</section>
 							</div>
@@ -103,12 +105,29 @@
 					</footer> -->
 				</article>
 			</div>
+		<!-- News -->
+			<div class="wrapper style3">
+				<article>
+					<header>
+						<h2>News</h2>
+					</header>
+					<div class="container">
+						<div class="row">
+							<div class="12u">
+								<div>
+									<p id="news"> In January 2015, <strong>Dr. Taylor</strong> was selected as the winner of $5,000 of Illumina sequencing regents in Illumina’s MiSeq My Focus contest.  His entry described recent work in the MGRG exploring microbial diversity in the gastrointestinal tract, urogenital tract, airways and hospital environments.  This research spotlight will be featured on <a href="http://www.illumina.com/landing/miseqfocus.html">Illumina’s MiSeq My Focus</a> portal.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</article>
+			</div>
 
 		<!-- Portfolio -->
-			<div class="wrapper style3">
+			<div class="wrapper style2">
 				<div id="portfolio">
 					<header>
-						<h2>Selected publications</h2>
+						<h2>Selected Publications</h2>
 						<!-- <p>Proin odio consequat  sapien vestibulum consequat lorem dolore feugiat lorem ipsum dolore.</p> -->
 					</header>
 					<div class="container" >
@@ -116,29 +135,34 @@
 							<div class="3u" >
 								<div class="box style2" >
 									<span class="image featured"><img src="images/biopsych.jpeg" alt="" /></span>
-									<h3><a href="http://www.ncbi.nlm.nih.gov/pubmed/25173628">Obese-type Gut Microbiota Induce Neurobehavioral Changes in the Absence of Obesity</a></h3>
-									<p>Bruce-Keller AJ, Salbaum JM, <strong>Luo M</strong>, <strong>Blanchard E 4th</strong>, <strong>Taylor CM</strong>, <strong>Welsh DA</strong>, Berthoud HR.</p>
+									<p><h3><a href="http://www.ncbi.nlm.nih.gov/pubmed/25173628">Obese-type Gut Microbiota Induce Neurobehavioral Changes in the Absence of Obesity</a></h3>
+									<hr>Bruce-Keller AJ, Salbaum JM, <strong>Luo M</strong>, <strong>Blanchard E 4th</strong>, <strong>Taylor CM</strong>, <strong>Welsh DA</strong>, Berthoud HR.
+									<hr>Biological Psychiatry <br> © 2014</p>
 								</div>
 							</div>
 							<div class="3u">
 								<article class="box style2">
 									<span class="image featured"><img src="images/nutrition.jpg" alt="" /></span>
-									<h3><a href="http://www.ncbi.nlm.nih.gov/pubmed/24985102">Artemisia supplementation differentially affects the mucosal and luminal ileal microbiota of diet-induced obese mice</a></h3>
-									<p>Wicks S, <strong>Taylor CM</strong>, <strong>Luo M</strong>, <strong>Blanchard E 4th</strong>, Ribnicky DM, Cefalu WT, Mynatt RL, <strong>Welsh DA</strong>.</p>
-								</article>
-							</div>
-							<div class="3u">
-								<article class="box style2">
-									<span class="image featured"><img src="images/JPediatrGastroCover.png" alt="" /></span>
-									<h3><a href="http://www.ncbi.nlm.nih.gov/pubmed/23254444">LHistamine-2 receptor blockers alter the fecal microbiota in premature infants</a></h3>
-									<p>Gupta RW Tran L, Norori J, Ferris MJ, Eren AM, <strong>Taylor CM</strong>, Dowd SE, Penn D.</p>
+									<p><h3><a href="http://www.ncbi.nlm.nih.gov/pubmed/24985102">Artemisia supplementation differentially affects the mucosal and luminal ileal microbiota of diet-induced obese mice</a></h3>
+									<hr>Wicks S, <strong>Taylor CM</strong>, <strong>Luo M</strong>, <strong>Blanchard E 4th</strong>, Ribnicky DM, Cefalu WT, Mynatt RL, <strong>Welsh DA</strong>.
+									<hr>Nutrition <br> © 2014</p>
 								</article>
 							</div>
 							<div class="3u">
 								<article class="box style2">
 									<span class="image featured"><img src="images/ploscover_render.png" alt="" /></span>
-									<h3><a href="http://www.ncbi.nlm.nih.gov/pubmed/22046340">Exploring the diversity of Gardnerella vaginalis in the genitourinary tract microbiota of monogamous couples through subtle nucleotide variation</a></h3>
-									<p>Eren AM, Zozaya M, <strong>Taylor CM</strong>, Dowd SE, Martin DH, Ferris MJ.</p>
+									<p><h3><a href="http://www.ncbi.nlm.nih.gov/pubmed/22046340">Exploring the diversity of Gardnerella vaginalis in the genitourinary tract microbiota of monogamous couples through subtle nucleotide variation</a></h3>
+									<hr>
+									Eren AM, Zozaya M, <strong>Taylor CM</strong>, Dowd SE, Martin DH, Ferris MJ.
+									<hr>PLoS ONE<br> © 2014</p>
+								</article>
+							</div>
+							<div class="3u">
+								<article class="box style2">
+									<span class="image featured"><img src="images/JPediatrGastroCover.png" alt="" /></span>
+									<p><h3><a href="http://www.ncbi.nlm.nih.gov/pubmed/23254444">LHistamine-2 receptor blockers alter the fecal microbiota in premature infants</a></h3>
+									<hr>Gupta RW Tran L, Norori J, Ferris MJ, Eren AM, <strong>Taylor CM</strong>, Dowd SE, Penn D.
+									<hr>Journal of Pediatric Gastroenterology <br> © 2013</p>
 								</article>
 							</div>
 						</div>
@@ -154,13 +178,13 @@
 			<div class="wrapper style4">
 				<article id="contact" class="container small">
 					<header>
-						<h2>Get in touch with us</h2>
+						<h2>Contact Us</h2>
 						<p>Have a project or idea in mind? Let us know!</p>
 					</header>
 					<div>
 						<div class="row">
 							<div class="12u">
-								<form method="post" action="mailto:eblan2@lsuhsc.edu">
+								<form method="post" action="mailto:microbial-genomics-resource-group@googlegroups.com?subject=web_form" enctype="text/plain">
 									<div>
 										<div class="row">
 											<div class="6u">
