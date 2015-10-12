@@ -1,4 +1,0 @@
-AuthName "Keenan Stool"
-AuthType Basic
-AuthUserFile /home/adminlocal/.htpasswd
-require valid-user
